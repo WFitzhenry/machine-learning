@@ -11,7 +11,7 @@ from ipywidgets import interact
 from utils_common import compute_cost
 from utils_common import dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dlcolors
 
-plt.style.use('./utils/custom_styles.mplstyle')
+plt.style.use('./custom_styles.mplstyle')
 n_bin = 5
 dlcm = LinearSegmentedColormap.from_list(
         'dl_map', dlcolors, N=n_bin)
